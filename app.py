@@ -947,7 +947,9 @@ CREDENTIALS_TEMPLATE = """
 <body>
     <div class="container">
         <h2>🔑 Setup API Credentials</h2>
-        
+            <h3>VMS68P9EK0-100   ZJ0CFWZEL1</h3>
+            <h3>DKqtPSHqUjyoLfBD+WAfbkMa8Jx2WEaIfbCaOQWbIx0= B  CJOHJvQ/lUBtRZSXIVAtd3wkLRaSDpVGbO92K+FAIo8=  A</h3>
+            
         <div class="section">
             <h3>Fyers API Credentials</h3>
             <div class="info"><strong>Note:</strong> Enter your Fyers API credentials.</div>
@@ -1597,4 +1599,5 @@ if __name__ == "__main__":
     print("📊 Market Data: Fyers")
     print("🛒 Order Placement: Fyers + mStock")
     print("="*60 + "\n")
+
     app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
